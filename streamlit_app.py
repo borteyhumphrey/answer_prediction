@@ -27,7 +27,7 @@ def load_data():
 def load_model():
     """Load the trained model"""
     try:
-        model = joblib.load('best_classification_model.pkl')
+        model = joblib.load('../best_classification_model.pkl')
         return model
     except Exception as e:
         st.error("Error: Could not load the model. Please ensure 'best_classification_model.pkl' is in the same directory.")
