@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from sklearn.preprocessing import FunctionTransformer
+from imblearn.pipeline import Pipeline
 
 
 def convert_to_dense(x):
